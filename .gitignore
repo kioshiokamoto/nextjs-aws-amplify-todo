@@ -35,6 +35,9 @@ bower_components
 psd
 thumb
 sketch
+.next/
+.next
+.next/*
 
 # End of https://www.toptal.com/developers/gitignore/api/amplify,react
 
