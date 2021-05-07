@@ -1,34 +1,42 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Created by https://www.toptal.com/developers/gitignore/api/amplify,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=amplify,react
 
-# testing
-/coverage
+### Amplify ###
+# AWS Amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplifyxc.config
 
-# next.js
-/.next/
-/out/
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# production
-/build
+node_modules
+bower_components
 
-# misc
-.DS_Store
-*.pem
+*.sublime*
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+psd
+thumb
+sketch
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# End of https://www.toptal.com/developers/gitignore/api/amplify,react
 
-# vercel
-.vercel
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
